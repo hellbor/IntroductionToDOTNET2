@@ -93,8 +93,9 @@ namespace Geometry
 			{
 				for (int j = 0; j < n; j++)
 				{
-					if ((i + j) % 2 == 0) Console.Write("+ ");
-					else Console.Write("- ");
+					Console.Write(i % 2 == j % 2 ? "+ " : "- ");
+					/*if ((i + j) % 2 == 0) Console.Write("+ ");
+					else Console.Write("- ");*/
 				}
 				Console.WriteLine();
 			} 
