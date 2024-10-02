@@ -18,6 +18,7 @@ namespace Factorial
 				factorial *= i;
 			}
 			Console.WriteLine($"Факториал числа {n} = {factorial}");
-		}
+            Console.WriteLine();
+        }
 	}
 }
