@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geomet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{B6B2D35C-490E-4EBE-B28A-F53DD410F386}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{392A42D1-227A-4A61-95E4-98F195E7C85A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B6B2D35C-490E-4EBE-B28A-F53DD410F386}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B2D35C-490E-4EBE-B28A-F53DD410F386}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B2D35C-490E-4EBE-B28A-F53DD410F386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392A42D1-227A-4A61-95E4-98F195E7C85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392A42D1-227A-4A61-95E4-98F195E7C85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392A42D1-227A-4A61-95E4-98F195E7C85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392A42D1-227A-4A61-95E4-98F195E7C85A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
