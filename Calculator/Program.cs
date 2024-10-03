@@ -10,15 +10,45 @@ namespace Calculator
 	{
 		static void Main(string[] args)
 		{
-			Console.Write("Введите выражение:" );
+			/*Console.Write("Введите выражение: ");
 			double a = Convert.ToDouble(Console.ReadLine());
 			double b = Convert.ToDouble(Console.ReadLine());
-			char s = Convert.ToChar(Console.ReadLine());
+			double result = Convert.ToDouble(Console.ReadLine());
+			char sign = Convert.ToChar(Console.ReadLine());*/
 
-			if(s=='+')
+			double a, b, result;
+			char sign;
+			Console.Write("Введите первое число: ");
+			a = Convert.ToDouble(Console.ReadLine());
+			Console.Write("Введите знак действия: ");
+			sign = Convert.ToChar(Console.ReadLine());
+			Console.Write("Введите второе число: ");
+			b = Convert.ToDouble(Console.ReadLine());
+
+			if (sign == '+')
 			{
-                Console.WriteLine($"{a}+{b}={a+b}");
-            }
+				result = a + b;
+				Console.WriteLine(result);
+			}
+			if (sign == '-')
+			{
+				result = a - b;
+				Console.WriteLine(result);
+			}
+			if (sign == '*')
+			{
+				result = a * b;
+				Console.WriteLine(result);
+			}
+			if (sign == '/')
+			{
+				result = a / b;
+				Console.WriteLine(result);
+				if (b == 0)
+				{
+					Console.WriteLine("ERROR!");
+				}
+			}
 		}
 	}
 }
