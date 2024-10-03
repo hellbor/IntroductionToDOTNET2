@@ -29,24 +29,29 @@ namespace Calculator
 			{
 				result = a + b;
 				Console.WriteLine(result);
+				Console.WriteLine();
 			}
 			if (sign == '-')
 			{
 				result = a - b;
 				Console.WriteLine(result);
+				Console.WriteLine();
 			}
 			if (sign == '*')
 			{
 				result = a * b;
 				Console.WriteLine(result);
+				Console.WriteLine();
 			}
 			if (sign == '/')
 			{
 				result = a / b;
 				Console.WriteLine(result);
+				Console.WriteLine();
 				if (b == 0)
 				{
 					Console.WriteLine("ERROR!");
+					Console.WriteLine();
 				}
 			}
 		}
