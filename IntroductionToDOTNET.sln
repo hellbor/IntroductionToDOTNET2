@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Fact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{D60EDE4A-AB53-44FE-98BD-6D65A7EFD140}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "Calc\Calc.csproj", "{90CA67DE-30DE-4383-9DC2-593A7C754FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{228FE8E0-2713-4BA4-A782-0C886CEE6DC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D60EDE4A-AB53-44FE-98BD-6D65A7EFD140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D60EDE4A-AB53-44FE-98BD-6D65A7EFD140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D60EDE4A-AB53-44FE-98BD-6D65A7EFD140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CA67DE-30DE-4383-9DC2-593A7C754FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CA67DE-30DE-4383-9DC2-593A7C754FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CA67DE-30DE-4383-9DC2-593A7C754FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CA67DE-30DE-4383-9DC2-593A7C754FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228FE8E0-2713-4BA4-A782-0C886CEE6DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228FE8E0-2713-4BA4-A782-0C886CEE6DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228FE8E0-2713-4BA4-A782-0C886CEE6DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228FE8E0-2713-4BA4-A782-0C886CEE6DC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
