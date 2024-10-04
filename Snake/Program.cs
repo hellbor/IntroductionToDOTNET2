@@ -10,7 +10,12 @@ namespace Snake
 	{
 		static void Main(string[] args)
 		{
-
+			char key;
+			do
+			{
+				key = Console.ReadKey().KeyChar;
+				Console.WriteLine($"{(int)key}\t{key}");
+			}while (true);
 		}
 	}
 }
