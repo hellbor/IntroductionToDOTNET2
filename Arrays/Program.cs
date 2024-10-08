@@ -101,8 +101,7 @@ namespace Arrays
 			//	Console.Write(i + "\t");
 			//}
 
-			int sum2 = i_arr_2.Cast<int>().Sum();
-			Console.WriteLine($"Сумма элементов двумерного массива: {sum2}");
+			Console.WriteLine($"Сумма элементов двумерного массива: {i_arr_2.Cast<int>().Sum()}");
 			Console.WriteLine();
 
 			/*for(int i = 0; i < rows; i++)
@@ -115,8 +114,7 @@ namespace Arrays
 			Console.ReadKey();break;
 			}*/
 
-			double avg2 = i_arr_2.Cast<int>().Average();
-			Console.WriteLine($"Среднее-арифметическое двумерного массива: {avg2}");
+			Console.WriteLine($"Среднее-арифметическое двумерного массива: {i_arr_2.Cast<int>().Average()}");
 			Console.WriteLine();
 
 			/*for (int i = 0; i < rows; i++)
@@ -129,12 +127,10 @@ namespace Arrays
 				Console.ReadKey();break;
 			}*/
 
-			int min2 = i_arr_2.Cast <int>().Min();
-            Console.WriteLine($"Минимальное значение двумерного массива: {min2}");
+            Console.WriteLine($"Минимальное значение двумерного массива: {i_arr_2.Cast<int>().Min()}");
 			Console.WriteLine();
 
-			int max2 = i_arr_2.Cast<int>().Max();
-            Console.WriteLine($"Максимальное значение двумерного массива: {max2}");
+            Console.WriteLine($"Максимальное значение двумерного массива: {i_arr_2.Cast<int>().Max()}");
 			Console.WriteLine();
 
 
