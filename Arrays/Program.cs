@@ -1,6 +1,6 @@
-﻿#define ARRAYS_1
-#define ARRAYS_2
-//#define JAGGED_ARRAY
+﻿//#define ARRAYS_1
+//#define ARRAYS_2
+#define JAGGED_ARRAY
 
 using System;
 using System.Collections.Generic;
@@ -96,11 +96,6 @@ namespace Arrays
 				Console.WriteLine();
 			}
 
-			//foreach(int i in i_arr_2)
-			//{
-			//	Console.Write(i + "\t");
-			//}
-
 			Console.WriteLine($"Сумма элементов двумерного массива: {i_arr_2.Cast<int>().Sum()}");
 			Console.WriteLine();
 
@@ -133,17 +128,40 @@ namespace Arrays
             Console.WriteLine($"Максимальное значение двумерного массива: {i_arr_2.Cast<int>().Max()}");
 			Console.WriteLine();
 
+			for (int i = 0; i < i_arr_2.GetLength(0); i++)
+			{
+				for (int j = 0; i < i_arr_2.GetLength(1); j++)
+				{
+					for (int k = i; k < i_arr_2.GetLength(0); k++)
+					{
+						for (int l = k == i ? j + 1 : 0; l < i_arr_2.GetLength(1); l++)
+						{
+							if (i_arr_2[k, l] < i_arr_2[i,j])
+							{
+								//(i_arr_2[k, l], i_arr_2[i, j]) = (i_arr_2[i, j], i_arr_2[k, j]);
+								int buffer = i_arr_2[i, j];
+								i_arr_2[i, j] = i_arr_2[k, l];
+								i_arr_2[k, l] = buffer;
+							}
+						}
+					}
+				}
+			}
 
+			//foreach(int i in i_arr_2)
+			//{
+			//	Console.Write(i + "\t");
+			//}
 #endif
 
 #if JAGGED_ARRAY
 			//for (int a = 0, b = 1, c = a + b; a < 1000; a = b, b = c, c = a + b) ;
 			int[][] arr_jagged = new int[][]
 			{
-				new int[]{0,1,1,2 },
-				new int[]{3,5,8,13,21 },
-				new int[]{34,55,89 },
-				new int[]{144,233,377,610,987 }
+				new int[]{0, 1, 1, 2 },
+				new int[]{3, 5, 8, 13, 21 },
+				new int[]{34, 55, 89 },
+				new int[]{144, 233, 377, 610, 987 }
 			};
 			for (int i = 0; i < arr_jagged.Length; i++)
 			{
