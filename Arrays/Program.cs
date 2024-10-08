@@ -37,20 +37,16 @@ namespace Arrays
 			Console.WriteLine();
 			Console.WriteLine();
 
-			int sum = arr.Sum();
-			Console.WriteLine($"Сумма элементов массива: {sum}");
+			Console.WriteLine($"Сумма элементов массива: {arr.Sum()}");
 			Console.WriteLine();
 
-			double avg = arr.Average();
-			Console.WriteLine($"Среднее-арифметическое элементов массива: {avg}");
+			Console.WriteLine($"Среднее-арифметическое элементов массива: {arr.Average()}");
 			Console.WriteLine();
 
-			int min = arr.Min();
-			Console.WriteLine($"Минимальное значение в массиве: {min}");
+			Console.WriteLine($"Минимальное значение в массиве: {arr.Min()}");
 			Console.WriteLine();
 
-			int max = arr.Max();
-			Console.WriteLine($"Максимальное значение в массиве: {max}");
+			Console.WriteLine($"Максимальное значение в массиве: {arr.Max()}");
 			Console.WriteLine();
 
 			Console.WriteLine("Отсортированный массив: ");
